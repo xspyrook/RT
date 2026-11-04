@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الريموت الذكي</string>
+    <string name="tagline">جهاز تحكم ذكي وماوس افتراضي</string>
+    
+    <!-- Navigation & Modes -->
+    <string name="mode_classic">ريموت تقليدي</string>
+    <string name="mode_mouse">ماوس هوائي</string>
+    <string name="mode_smart">التحكم الذكي</string>
+    <string name="tab_remote">الريموت</string>
+    <string name="tab_mouse">لوحة اللمس</string>
+    <string name="tab_devices">الأجهزة</string>
+    <string name="tab_settings">الإعدادات</string>
+
+    <!-- Controls -->
+    <string name="btn_power">تشغيل/إيقاف</string>
+    <string name="btn_vol_up">الصوت +</string>
+    <string name="btn_vol_down">الصوت -</string>
+    <string name="btn_ch_up">القناة +</string>
+    <string name="btn_ch_down">القناة -</string>
+    <string name="btn_mute">كتم الصوت</string>
+    <string name="btn_ok">موافق</string>
+    <string name="btn_back">رجوع</string>
+    <string name="btn_home">الرئيسية</string>
+    <string name="btn_menu">القائمة</string>
+    <string name="btn_source">المصدر</string>
+    <string name="btn_exit">خروج</string>
+    <string name="btn_info">معلومات</string>
+    <string name="btn_play">تشغيل</string>
+    <string name="btn_pause">إيقاف مؤقت</string>
+    <string name="btn_rewind">ترجيع</string>
+    <string name="btn_fast_forward">تقديم</string>
+    <string name="btn_prev_channel">القناة السابقة</string>
+
+    <!-- Touch Mouse / Air Mouse -->
+    <string name="mouse_title">الماوس الافتراضي (لوحة اللمس)</string>
+    <string name="mouse_trackpad_hint">اسحب لتحريك المؤشر • انقر للنقر • مرر بإصبعين</string>
+    <string name="mouse_left_click">نقر أيسر</string>
+    <string name="mouse_right_click">نقر أيمن / رجوع</string>
+    <string name="mouse_scroll_up">تمرير لأعلى</string>
+    <string name="mouse_scroll_down">تمرير لأسفل</string>
+    <string name="mouse_sensitivity">سرعة حركة المؤشر</string>
+    <string name="mouse_mode_active">لوحة اللمس مفعلة</string>
+    <string name="mouse_mode_inactive">لوحة اللمس في وضع الاستعداد</string>
+
+    <!-- Hardware & Status -->
+    <string name="ir_status_available">تم اكتشاف مرسل الأشعة IR</string>
+    <string name="ir_status_missing">الهاتف لا يحتوي على مرسل IR</string>
+    <string name="ir_status_missing_desc">لا يحتوي هاتفك على جهاز إرسال بالأشعة تحت الحمراء. يمكنك التحكم بالتلفزيونات الذكية عبر شبكة Wi-Fi المحلية.</string>
+    <string name="wifi_connected">متصل بشبكة Wi-Fi</string>
+    <string name="wifi_disconnected">غير متصل بالواي فاي</string>
+    <string name="tv_connected">متصل بالتلفزيون</string>
+    <string name="tv_not_connected">لا يوجد تلفزيون متصل</string>
+    <string name="signal_transmitted">تم إرسال إشارة IR (تردد 38 كيلوهرتز)</string>
+
+    <!-- Add Device Screen -->
+    <string name="add_device_title">إضافة جهاز جديد</string>
+    <string name="device_type_tv">تلفزيون ذكي / عادي</string>
+    <string name="device_type_ac">مكيف هواء</string>
+    <string name="device_type_receiver">ريسيفر / مستقبل فضائي</string>
+    <string name="device_type_audio">مسرح منزلي / ساوند بار</string>
+    <string name="brand_select">اختر الشركة المصنعة</string>
+    <string name="model_select">اختر الموديل أو كود التحكم</string>
+    <string name="device_name_label">اسم الجهاز المخصص</string>
+    <string name="connection_type">نوع الاتصال</string>
+    <string name="conn_ir">أشعة تحت الحمراء (IR)</string>
+    <string name="conn_wifi">شبكة Wi-Fi المحلية</string>
+    <string name="test_power_button">اختبار زر التشغيل</string>
+    <string name="test_power_hint">وجّه الهاتف نحو التلفزيون واضغط زر التشغيل. هل استجاب الجهاز؟</string>
+    <string name="test_success">نعم، يعمل بنجاح!</string>
+    <string name="test_try_next">جرّب الكود التالي</string>
+    <string name="save_device">حفظ جهاز التحكم</string>
+    <string name="delete_device">حذف الجهاز</string>
+    <string name="switch_device">تبديل الجهاز</string>
+    <string name="no_devices">لم تتم إضافة أي جهاز بعد. اضغط + لإضافة تلفزيون أو جهاز منزلي.</string>
+    
+    <!-- Wi-Fi Discovery -->
+    <string name="scan_network">فحص شبكة Wi-Fi المحلية</string>
+    <string name="scanning">جاري البحث عن الشاشات الذكية المتوافقة…</string>
+    <string name="found_tvs">التلفزيونات الذكية المكتشفة</string>
+    <string name="enter_ip_manually">أو أدخل عنوان IP يدوياً</string>
+    <string name="ip_address">عنوان IP للتلفزيون</string>
+    <string name="connect">اتصال</string>
+
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="haptic_feedback">الاهتزاز اللمسي (Haptic Feedback)</string>
+    <string name="haptic_feedback_desc">اهتزاز خفيف عند الضغط على أزرار التحكم</string>
+    <string name="dark_theme">الوضع الداكن</string>
+    <string name="dark_theme_desc">التبديل بين المظهر الداكن والفاتح</string>
+    <string name="ir_frequency_label">تردد الموجة الحاملة للأشعة</string>
+    <string name="language_select">لغة التطبيق</string>
+    <string name="privacy_guarantee">خصوصية تامة 100%: لا يتم إرسال أي بيانات خارج جهازك.</string>
+</resources>

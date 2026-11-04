@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Smart IR Remote</string>
+    <string name="tagline">Smart Remote &amp; Touch Mouse</string>
+    
+    <!-- Navigation & Modes -->
+    <string name="mode_classic">Classic Remote</string>
+    <string name="mode_mouse">Air Mouse</string>
+    <string name="mode_smart">Smart Hub</string>
+    <string name="tab_remote">Remote</string>
+    <string name="tab_mouse">Touchpad</string>
+    <string name="tab_devices">Devices</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Controls -->
+    <string name="btn_power">Power</string>
+    <string name="btn_vol_up">Vol +</string>
+    <string name="btn_vol_down">Vol -</string>
+    <string name="btn_ch_up">CH +</string>
+    <string name="btn_ch_down">CH -</string>
+    <string name="btn_mute">Mute</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_home">Home</string>
+    <string name="btn_menu">Menu</string>
+    <string name="btn_source">Source</string>
+    <string name="btn_exit">Exit</string>
+    <string name="btn_info">Info</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_rewind">Rewind</string>
+    <string name="btn_fast_forward">Forward</string>
+    <string name="btn_prev_channel">Prev CH</string>
+
+    <!-- Touch Mouse / Air Mouse -->
+    <string name="mouse_title">Air Mouse Touchpad</string>
+    <string name="mouse_trackpad_hint">Swipe to move cursor • Tap to click • 2-finger scroll</string>
+    <string name="mouse_left_click">Left Click</string>
+    <string name="mouse_right_click">Right Click / Back</string>
+    <string name="mouse_scroll_up">Scroll Up</string>
+    <string name="mouse_scroll_down">Scroll Down</string>
+    <string name="mouse_sensitivity">Cursor Sensitivity</string>
+    <string name="mouse_mode_active">Touchpad Active</string>
+    <string name="mouse_mode_inactive">Touchpad Standby</string>
+
+    <!-- Hardware & Status -->
+    <string name="ir_status_available">IR Blaster Detected</string>
+    <string name="ir_status_missing">No IR Blaster Hardware</string>
+    <string name="ir_status_missing_desc">Your device doesn\'t have a built-in Infrared transmitter. You can control Smart TVs via Wi-Fi Local Network.</string>
+    <string name="wifi_connected">Wi-Fi Connected</string>
+    <string name="wifi_disconnected">Wi-Fi Disconnected</string>
+    <string name="tv_connected">Connected to TV</string>
+    <string name="tv_not_connected">No TV Connected</string>
+    <string name="signal_transmitted">IR Signal Transmitted (38 kHz)</string>
+
+    <!-- Add Device Screen -->
+    <string name="add_device_title">Add New Device</string>
+    <string name="device_type_tv">Smart / IR TV</string>
+    <string name="device_type_ac">Air Conditioner</string>
+    <string name="device_type_receiver">Set-Top Box / Receiver</string>
+    <string name="device_type_audio">Soundbar / Audio</string>
+    <string name="brand_select">Select Brand</string>
+    <string name="model_select">Select Model / Preset</string>
+    <string name="device_name_label">Custom Device Name</string>
+    <string name="connection_type">Connection Mode</string>
+    <string name="conn_ir">Infrared (IR)</string>
+    <string name="conn_wifi">Wi-Fi LAN Control</string>
+    <string name="test_power_button">Test Power Button</string>
+    <string name="test_power_hint">Point phone at device and press Power. Did the device respond?</string>
+    <string name="test_success">Yes, it worked!</string>
+    <string name="test_try_next">Try Next Preset</string>
+    <string name="save_device">Save Remote</string>
+    <string name="delete_device">Delete Remote</string>
+    <string name="switch_device">Switch Device</string>
+    <string name="no_devices">No devices added yet. Tap + to add a TV or appliance.</string>
+    
+    <!-- Wi-Fi Discovery -->
+    <string name="scan_network">Scan Local Wi-Fi</string>
+    <string name="scanning">Scanning network for Smart TVs…</string>
+    <string name="found_tvs">Discovered Smart TVs</string>
+    <string name="enter_ip_manually">Or Enter IP Address Manually</string>
+    <string name="ip_address">TV IP Address</string>
+    <string name="connect">Connect</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="haptic_feedback">Haptic Feedback (Vibration)</string>
+    <string name="haptic_feedback_desc">Vibrate gently upon tapping remote keys</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="dark_theme_desc">Toggle between Dark and Light mode</string>
+    <string name="ir_frequency_label">IR Carrier Frequency</string>
+    <string name="language_select">App Language</string>
+    <string name="privacy_guarantee">100% Local &amp; Private: No data leaves your phone.</string>
+</resources>
